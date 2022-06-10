@@ -7,18 +7,20 @@
     "starter"
   ],
   "private": true,
-  "workspaces": ["src/scenes/*"],
+  "workspaces": [
+    "src/scenes/*"
+  ],
   "dependencies": {
     "@types/jest": "^27.5.2",
     "@types/lodash": "^4.14.182",
     "@types/node": "^17.0.38",
     "@types/react": "^18.0.10",
     "@types/react-dom": "^18.0.5",
+    "dayjs": "^1.11.3",
     "react": "18.0.0",
     "react-dom": "18.0.0",
     "react-router-dom": "^6.3.0",
-    "react-scripts": "5.0.1",
-    "dayjs": "^1.11.3"
+    "react-scripts": "5.0.1"
   },
   "devDependencies": {
     "prettier": "^2.6.2",
